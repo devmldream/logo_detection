@@ -6,8 +6,6 @@
 Object detection is a computer vision technique that allows us to identify and locate objects in an image or video. With this kind of identification and localization, object detection can be used to count objects in a scene and determine and track their precise locations while accurately labeling them. Object detection is commonly confused with image recognition, so before we proceed, it’s important that we clarify the distinctions between them. Image recognition assigns a label to an image. A picture of a dog receives the label “dog”. A picture of two dogs still receives the label “dog”. Object detection, on the other hand, draws a box around each dog and labels the box “dog”. The model predicts where each object is and what label should be applied.
 The purpose of this project is training a logo detection model with YOLOv7 using two different datasets. It can detect logos in the wild images.
 
-![sample_image](images/320803821.jpg "Detection Result")
-
 <!-- ARCHITECTURE -->
 ## Architecture
 In this model, we used YOLOv7 as the architecture. YOLOv7 surpasses all known object detectors in both speed and accuracy in the range from 5 FPS to 160 FPS and has the highest accuracy 56.8% AP among all known real-time object detectors with 30 FPS or higher on GPU V100. YOLO architecture is FCNN(Fully Connected Neural Network) based. However, Transformer-based versions have also recently been added to the YOLO family.
